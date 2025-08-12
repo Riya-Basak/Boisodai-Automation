@@ -96,7 +96,7 @@ public class ProductAddToCartSteps {
     public void enterTheValidAddress() throws InterruptedException {
         reusableMethod.sendKeysToElement(product.phoneNo,phone);
         reusableMethod.sendKeysToElement(product.name,name);
-        reusableMethod.sendKeysToElement(product.address,address);
+        reusableMethod.sendKeysToElement(product.address,name);
         Thread.sleep(2000);
     }
 

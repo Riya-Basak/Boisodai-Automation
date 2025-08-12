@@ -34,14 +34,14 @@ public class LoginSteps {
         reusableMethod.waitUntilElementIsVisible(loginPage.loginLink);
         reusableMethod.clickElement(loginPage.loginLink);
         reusableMethod.clickElement(loginPage.loginHereLink);
-        Thread.sleep(2000);
+       // Thread.sleep(2000);
 
     }
 
     @And("Click on the Continue Button")
     public void clickOnTheContinueButton() throws InterruptedException {
         reusableMethod.clickElement(loginPage.continueButton);
-        Thread.sleep(6000);
+        //Thread.sleep(1000);
     }
 
     @When("User enter valid password")
@@ -49,7 +49,7 @@ public class LoginSteps {
         Thread.sleep(2000);
         reusableMethod.clickElement(loginPage.passwordTextField);
         reusableMethod.sendKeysToElement(loginPage.passwordTextField,testData.PASSWORD);
-        Thread.sleep(6000);
+        //Thread.sleep(6000);
 
     }
 

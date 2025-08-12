@@ -9,3 +9,4 @@ Feature: Test Add To Cart functionality
     And Enter the valid address
     And Click on the Next Button
     And Select area and payment option
+
